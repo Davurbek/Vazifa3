@@ -59,7 +59,7 @@ header .nav-item a:hover::after
 }
 .post-category
 {
-	font-size: 12px;
+	font-size: 16px;
 	color: #000;
 	text-transform: uppercase;
 	font-weight: 300;
@@ -67,15 +67,15 @@ header .nav-item a:hover::after
 }
 .grid-posts
 {
-	margin-top: 20px;
-	margin-bottom: 20px;
+	margin-top: 100px;
+	margin-bottom: 100px;
 }
 .grid-posts .card
 {
 	position: relative;
 	border: 0;
 	/*border: 1px solid red;*/
-	margin-bottom: 20px;
+	margin-bottom: 100px;
 }
 .card .block{
 	width: 50%;
@@ -118,17 +118,6 @@ header .nav-item a:hover::after
 	color: #000;
 	text-align: center;
 	font-size: 12px;
-}
-.header-end .col-2 h4 
-{
-	color: #fafafa;
-	text-align: justify;
-	text-align: center;
-}
-.header-end .col-2 p
-{
-	color: #fafafa;
-	text-align: center;
 }
 footer
 {
@@ -236,40 +225,13 @@ footer
 {
   .footer-left
   {
-  	margin-bottom: 1px;
+  	margin-bottom: 5px;
   }
-  .grid-posts .card-img-top
-{
-	max-height: 100%;
-	max-width: 100%;
-	
-}
-.grid-posts .col-3
-{
-	max-width: 100%;
-	margin-left: 100px;
-	margin-bottom: 20px;
-	padding-right: 10px;
-	padding-left: 10px;
-}
-.navbar-brand
-{
-	padding-left: 40px;
-}
+ 
 }
 
 /*Extra Small Devices,Phones*/
-@media only screen and (max-width: 480px)
-{
-   
-	.card .center h5
-{
-	color: #fafafa;
-	font-size: 10px;
-}
-.card .center p
-{
-	color: #fafafa;
-	font-size: 8px;
-}
+@media only screen and (max-width: 360px)
+{ 
+	
 }
